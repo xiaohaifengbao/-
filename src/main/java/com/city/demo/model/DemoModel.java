@@ -18,6 +18,7 @@ public class DemoModel {
         String realPath = request.getServletContext().getRealPath("/");
         String substring = realPath.substring(realPath.lastIndexOf("\\") + 1);
         System.out.println("substring = " + substring);
+        System.out.println("这是一个新的分支");
         return "1111";
     }
 }
